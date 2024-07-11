@@ -6,6 +6,7 @@ const cors = require('cors');
 const app = express();
 const port = 5000;
 
+// app.use(cors({origin:['https://vercel.com/harsh-vardhan-jhas-projects/flight-mern/jEUMM8TazickrXDMTqGDCjfXJbaM']));
 app.use(cors());
 app.use(express.json());
 
